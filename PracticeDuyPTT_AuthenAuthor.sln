@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeDuyPTT_Api", "PracticeDuyPTT_Api\PracticeDuyPTT_Api.csproj", "{6DE296DC-227F-42FE-B705-BED45557B749}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuyPTT_Application", "DuyPTT_Application\DuyPTT_Application.csproj", "{14BF1107-8FAB-4F1C-97FE-8DF6F06B9417}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuyPTT_Integrations", "DuyPTT_Integrations\DuyPTT_Integrations.csproj", "{AE6EFDB4-6FAD-499E-9137-90873CCAC3AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuyPTT_Repositories", "DuyPTT_Repositories\DuyPTT_Repositories.csproj", "{9B8B396A-0086-4D40-9DC6-9509691448AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DE296DC-227F-42FE-B705-BED45557B749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DE296DC-227F-42FE-B705-BED45557B749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DE296DC-227F-42FE-B705-BED45557B749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DE296DC-227F-42FE-B705-BED45557B749}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14BF1107-8FAB-4F1C-97FE-8DF6F06B9417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14BF1107-8FAB-4F1C-97FE-8DF6F06B9417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14BF1107-8FAB-4F1C-97FE-8DF6F06B9417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14BF1107-8FAB-4F1C-97FE-8DF6F06B9417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE6EFDB4-6FAD-499E-9137-90873CCAC3AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE6EFDB4-6FAD-499E-9137-90873CCAC3AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE6EFDB4-6FAD-499E-9137-90873CCAC3AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE6EFDB4-6FAD-499E-9137-90873CCAC3AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B8B396A-0086-4D40-9DC6-9509691448AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B8B396A-0086-4D40-9DC6-9509691448AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B8B396A-0086-4D40-9DC6-9509691448AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B8B396A-0086-4D40-9DC6-9509691448AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82907D69-DF27-4907-B240-8F0D2AF9BDD3}
+	EndGlobalSection
+EndGlobal

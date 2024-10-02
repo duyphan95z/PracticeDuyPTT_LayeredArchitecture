@@ -1,0 +1,6 @@
+@DuyPTT_API_HostAddress = http://localhost:5193
+
+GET {{DuyPTT_API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
