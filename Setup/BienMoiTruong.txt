@@ -1,0 +1,31 @@
+--Thêm biến
+[System.Environment]::SetEnvironmentVariable("JWT_SECRET_KEY_DuyPTT", "DuyPTT_MapDich_authentication_14111995_01012019", [System.EnvironmentVariableTarget]::Machine)
+
+--GET 
+$env:JWT_SECRET_KEY_DuyPTT
+
+--Xóa biến
+[System.Environment]::SetEnvironmentVariable("JWT_SECRET_KEY_DuyPTT", $null, [System.EnvironmentVariableTarget]::Machine)
+
+
+
+
+// Dùng thằng này để trả ra lỗi cụ thế nếu ko check dc health 
+//app.MapHealthChecks("/health", new HealthCheckOptions
+//{
+//	ResponseWriter = async (context, report) =>
+//	{
+//		context.Response.ContentType = "application/json";
+//		var result = JsonSerializer.Serialize(new
+//		{
+//			status = report.Status.ToString(),
+//			errors = report.Entries.Select(e => new
+//			{
+//				key = e.Key,
+//				status = e.Value.Status.ToString(),
+//				exception = e.Value.Exception?.Message
+//			})
+//		});
+//		await context.Response.WriteAsync(result);
+//	}
+//});

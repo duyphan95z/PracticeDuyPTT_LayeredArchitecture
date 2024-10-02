@@ -1,0 +1,11 @@
+1.  Zookeeper
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+
+2. Kafka
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+
+Tạo topic
+.\bin\windows\kafka-topics.bat --create --topic dev-topic-duyptt-log --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
+
+Check topic
+.\bin\windows\kafka-topics.bat --list --bootstrap-server localhost:9092
