@@ -36,7 +36,7 @@ namespace PracticeDuyPTT_Api.Controllers
 			}
             else
             {
-				return BadRequest(new Response<object>("Không có quyền READ data nghe hôm !. Liên hệ DUYPTT nhé, Tạo ticket mới làm, hổng tạo hổng làm"));
+				return BadRequest(new Response<object>("Không có quyền READ data nghe hôm !. Liên hệ DUYPTT nhé"));
             }
         }
 		[HttpPost("UserInsert")]
@@ -50,7 +50,7 @@ namespace PracticeDuyPTT_Api.Controllers
 			}
 			else
 			{
-				return BadRequest(new Response<object>("Không có quyền WRITE data nghe hôm !. Liên hệ DUYPTT nhé, Tạo ticket mới làm, hổng tạo hổng làm"));
+				return BadRequest(new Response<object>("Không có quyền WRITE data nghe hôm !. Liên hệ DUYPTT nhé"));
 			}
 		}
 		[HttpPost("UserReadWriteJsonTxt")]
@@ -64,7 +64,7 @@ namespace PracticeDuyPTT_Api.Controllers
 			}
 			else
 			{
-				return BadRequest(new Response<object>("Không có quyền WRITE data nghe hôm !. Liên hệ DUYPTT nhé, Tạo ticket mới làm, hổng tạo hổng làm"));
+				return BadRequest(new Response<object>("Không có quyền WRITE data nghe hôm !. Liên hệ DUYPTT nhé"));
 			}
 		}
 	}
